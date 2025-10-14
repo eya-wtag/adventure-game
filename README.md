@@ -1,5 +1,5 @@
-# CF Game
-🏰 ColdFusion Coding Challenge: OOP Adventure Game
+
+# 🏰 ColdFusion Coding Challenge: OOP Adventure Game
 ## Getting Started
 
 ### Prerequisites
