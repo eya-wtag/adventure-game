@@ -1,6 +1,6 @@
 
 # 🏰 ColdFusion Coding Challenge: OOP Adventure Game
-## Getting Started
+
 ### CF Challenge Description 
 This project is a small, functional command-line style adventure game built in ColdFusion (CFML) designed to demonstrate key Object-Oriented Programming (OOP) and API development concepts.
 
@@ -10,7 +10,8 @@ Ensure you have the following installed:
 - [Git](https://git-scm.com/)
 
 
-###  ✨ Core Concepts Demonstrated
+### ✨Core Concepts Demonstrated
+
 This application serves as an example of modern CFML development by implementing:
 
 -Components (CFCs): Encapsulating game logic within a reusable Game.cfc.
@@ -21,7 +22,7 @@ This application serves as an example of modern CFML development by implementing
 
 -Session Management: Utilizing the ColdFusion session scope for persisting user-specific data (saved games).
 
-### Start Up the Docker Containers
+### ✨Start Up the Docker Containers
 
 Once inside the project root directory, start up the Docker containers:
 
@@ -30,7 +31,7 @@ docker-compose up --build
 ```
 
 
-### Running the Project
+### ✨Running the Project
 
 Enter the following address in your browser:
 
