@@ -37,5 +37,5 @@ docker-compose up --build
 
 Enter the following address in your browser:
 
-```http://127.0.0.1:8888/```
+``http://127.0.0.1:8888/``
 ---
