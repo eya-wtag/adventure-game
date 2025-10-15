@@ -5,7 +5,8 @@
         "choices": [
             { "text": "Enter the forest", "destination": "forest_start" },
             { "text": "Explore the cave", "destination": "cave_start" }
-        ]
+        ],
+        "itemsToFind": []
     },
     "forest_start": {
         "title": "The Whispering Woods",
@@ -13,7 +14,8 @@
         "choices": [
             { "text": "Follow the sound of a nearby river", "destination": "river_path" },
             { "text": "Hide behind a large oak tree", "destination": "hide" }
-        ]
+        ],
+        "itemsToFind": ["Fruits"]
     },
     "river_path": {
         "title": "The Peaceful Riverbank",
@@ -21,7 +23,8 @@
         "choices": [
             { "text": "Speak to the villagers", "destination": "village_discovery" },
             { "text": "Look for work", "destination": "job_search" }
-        ]
+        ],
+        "itemsToFind": ["Rusty_key", "Dirty cloths"]
     },
     "hide": {
         "title": "Hiding in the Shadows",
@@ -29,7 +32,8 @@
         "choices": [
             { "text": "Venture deeper into the woods", "destination": "forest_start" },
             { "text": "Search for food and water", "destination": "find_food" }
-        ]
+        ],
+        "itemsToFind": ["Bag", "Food", "Flashlight"]
     },
     "find_food": {
         "title": "A Fortunate Find",
@@ -37,7 +41,8 @@
         "choices": [
             { "text": "Continue your journey through the forest", "destination": "forest_start" },
             { "text": "Rest for a while", "destination": "rest" }
-        ]
+        ],
+        "itemsToFind": ["Wild_berries"]
     },
     "rest": {
         "title": "Taking a Moment",
@@ -45,21 +50,24 @@
         "choices": [
             { "text": "Stand up and continue your journey", "destination": "forest_start" },
             { "text": "You feel too tired to move", "destination": "give_up" }
-        ]
+        ],
+        "itemsToFind": ["Energy"]
     },
     "village_discovery": {
         "title": "Finding a Friend",
         "storyText": "You're welcomed into the village and immediately befriend a kind local who offers you a place to stay. You've found a new home and a valuable friendship.",
         "choices": [
             { "text": "Celebrate your victory", "destination": "win" }
-        ]
+        ],
+        "itemsToFind": []
     },
     "job_search": {
         "title": "A New Beginning",
         "storyText": "You find honest work at a farm. The days are long, but you learn the value of hard work and feel a sense of purpose. You know this is the first step toward a successful life.",
         "choices": [
             { "text": "Celebrate your hard work", "destination": "win" }
-        ]
+        ],
+        "itemsToFind": ["New Home", "Medication", "Radio"]
     },
     "cave_start": {
         "title": "The Glimmering Cave",
@@ -67,7 +75,8 @@
         "choices": [
             { "text": "Search for the exit with your treasure", "destination": "cave_exit" },
             { "text": "Leave the cave and return to the crossroads", "destination": "start" }
-        ]
+        ],
+        "itemsToFind": ["ancient_coins", "jewels"]
     },
     "cave_exit": {
         "title": "The Winding Tunnel",
@@ -75,14 +84,16 @@
         "choices": [
             { "text": "Try another tunnel", "destination": "dead_end" },
             { "text": "Turn back and look for another way", "destination": "cave_start" }
-        ]
+        ],
+        "itemsToFind": ["water pipes"]
     },
     "dead_end": {
         "title": "A New Path",
         "storyText": "You hit a dead end, but you're not defeated. You've learned that sometimes in life, you have to turn back and try a new direction. You forge ahead with renewed determination.",
         "choices": [
             { "text": "Continue your journey with your riches", "destination": "win" }
-        ]
+        ],
+        "itemsToFind": ["wood"]
     },
     "give_up": {
         "title": "The End of the Road",

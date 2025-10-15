@@ -10,7 +10,21 @@
 <cfoutput>
     <h2>#currentScene.title#</h2>
     <p>#currentScene.storyText#</p>
-
+    <h2>Player's inventory</h2>
+    <cfif StructKeyExists(currentScene, "itemsToFind") AND ArrayLen(currentScene.itemsToFind) GT 0>
+    <cfscript>
+        // Convert the array of items to a comma-separated string for display
+    itemsList = ArrayToList(currentScene.itemsToFind);
+    </cfscript>
+            <h3>Available Items Here:</h3>
+            <p>
+                You spot: 
+                <cfoutput>#itemsList#</cfoutput>
+            </p>
+        </div>
+    <cfelse>  <h3>No Available Items Here</h3>
+    </cfif>
+     
     <h3>Choices:</h3>
     <ul>
         <cfloop array="#currentScene.choices#" index="choice">
