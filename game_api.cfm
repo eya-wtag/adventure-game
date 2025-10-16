@@ -115,7 +115,7 @@
         .then(response => {
             if (response.ok) {
                 
-                window.location.href = 'game_api.cfm?sence=start';
+                window.location.href = 'game_api.cfm?scene=start';
             } else {
                 statusEl.innerText = 'Error starting new game.';
                 statusEl.style.color = 'red';
