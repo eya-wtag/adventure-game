@@ -31,9 +31,9 @@ function onApplicationStart(){
 	);
          
 }
-// function onRequestStart( string targetPage ) {}
-// function onRequest( string targetPage  ) {
-//          include "/index.cfm";
-// }
+function onRequestStart( string targetPage ) {}
+function onRequest( string targetPage  ) {
+          include "/index.cfm";
+}
 
 }
