@@ -1,4 +1,4 @@
-<!--- <cfscript>  
+<cfscript>  
 param name="url.action" default="game_api";
 
 switch (url.action) {
@@ -17,4 +17,3 @@ switch (url.action) {
 }
 </cfscript>
 
- --->
